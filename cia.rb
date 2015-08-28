@@ -7,5 +7,4 @@ class CIA < Sinatra::Application
 
   configure :production do
   end
-
 end
