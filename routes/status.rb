@@ -1,5 +1,5 @@
 class CIA < Sinatra::Application
   get '/' do
-    { status: 'Ok' }.to_json
+    { status: 'Ok v0.0.1' }.to_json
   end
 end
