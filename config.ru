@@ -6,6 +6,4 @@ Bundler.require
 
 require ::File.join( ::File.dirname(__FILE__), 'cia' )
 
-map '/v1' do
-  run CIA.new
-end
+run CIA.new
